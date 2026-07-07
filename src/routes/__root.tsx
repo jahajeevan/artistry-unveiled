@@ -91,6 +91,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Maison Lumière — Luxury Photography Studio" },
+      { name: "description", content: "Cinematic, editorial photography experiences crafted with emotion, detail and timeless beauty. Weddings, portraits, fashion and commercial stories." },
+      { property: "og:description", content: "Cinematic, editorial photography experiences crafted with emotion, detail and timeless beauty. Weddings, portraits, fashion and commercial stories." },
+      { name: "twitter:description", content: "Cinematic, editorial photography experiences crafted with emotion, detail and timeless beauty. Weddings, portraits, fashion and commercial stories." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/88754b8d-5ee0-4b57-b58e-a114456cf67e/id-preview-e639c398--b5195ebd-199a-4799-bcd3-145dcacd06b4.lovable.app-1783417949506.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/88754b8d-5ee0-4b57-b58e-a114456cf67e/id-preview-e639c398--b5195ebd-199a-4799-bcd3-145dcacd06b4.lovable.app-1783417949506.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
